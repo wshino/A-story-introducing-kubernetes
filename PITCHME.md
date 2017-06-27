@@ -27,3 +27,12 @@ Mission
 - Make Development, Staging and Production environment into one cluster
 - Batch processing also runs in container
 - Easy management and Resource monitoring
+
+---
+
+Necessary function
+
+- Blue-Green Deployment
+- Resource efficiency
+- Error handling and Rollback
+- 
