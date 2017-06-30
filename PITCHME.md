@@ -35,4 +35,23 @@ Necessary function
 - Blue-Green Deployment
 - Resource efficiency
 - Error handling and Rollback
-- 
+
+---
+
+Blue-Green Deployment
+
+- Set "color: blue", "color: green" to metadata of deployment
+- Set "color: blue" to metadata of service
+
+---
+
+Blue-Green Deployment
+
+```bash
+COLOR=`kubectl get svc -l app=v1-frontend -o json | jq '.items[0].spec.selector.color' -r`
+```
+
+- Replace service selector to blue or green
+- kubectl apply -f service.yml
+
+
