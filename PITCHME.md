@@ -70,3 +70,30 @@ metadata:
 parent: pod/mysql
 child: job/db-migration
 ```
+
+---
+
+HA Settings
+
+---
+
+CPU limit
+
+---
+
+Batch Jobs
+
+---
+
+Logging
+
+---
+
+Monitoring tool
+
+---
+
+Use Rancher
+
+---
+
